@@ -1,12 +1,20 @@
 # max-practicum-test
 
+Task:
+
 - make package.json file
 - init .gitignore
 - delivery ready page to GHPages from separate git-branch
-- 2 ways how make a builder using Gulp or Grunt
-- you have to build JS and CSS assets for webpage
+- Use Grunt, Gulp or Webpack to build assets (do not touch/edit `./src` and `./index.html`)
 
-here os modules you probably have to include to project
+The builder must:
+- compile JS and delivery bundle.js to assets folder,
+- CSS should be compiled using Sass (dart-sass, node-sass or sass) with postcss (autoprefixer and cssnano),
+- Images: should be copied by task-manager to assets folder
+- *(optional) task-manager must optimize images before delivery them to assets folder
+- *(optional) task-manager must convert optimized images to `webp` file format
+
+here is modules you probably have to include to project
 
 ```json
   "dependencies": {
