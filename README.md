@@ -8,7 +8,7 @@ Task:
 - Use Grunt, Gulp or Webpack to build assets (do not touch/edit `./src` and `./index.html`)
 
 The builder must:
-- compile JS and delivery bundle.js to assets folder,
+- compile JS using babel6 and delivery bundle.js to assets folder,
 - CSS should be compiled using Sass (dart-sass, node-sass or sass) with postcss (autoprefixer and cssnano),
 - Images: should be copied by task-manager to assets folder
 - *(optional) task-manager must optimize images before delivery them to assets folder
